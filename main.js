@@ -1,11 +1,12 @@
 const searchForm = document.getElementById('search-form');
 const playerDiv = document.getElementById('player');
 
-// cria o token!
+// cria o token
 function createToken() {
 
-    const clientId = 'a11dbd03bf194acb920593f6636c2740';
-    const clientSecret = '8b79ee3281aa47b7af9d6888262d90ff';
+    // o clientId e o clientSecret vc precisa entrar no dashboard spotify for developers pra gerar um
+    const clientId = '';
+    const clientSecret = '';
 
     const authString = `${clientId}:${clientSecret}`;
     const base64AuthString = btoa(authString);
